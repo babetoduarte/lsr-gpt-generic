@@ -1,0 +1,19 @@
+Given the following severity category definitions:
+
+      1. "MINOR": if there is mention of rivers or creeks overflowing; or if there is mention of crops, yards, or basements being flooded.
+      2. "MODERATE": if there is mention of streets or roads being flooded; or if there is mention of road closures.
+      3. "SERIOUS": if there is mention of vehicles, homes, and/or buildings inundated with water; or if there is mention of roads or bridges being damaged.
+      4. "SEVERE": if there is mention of vehicles and/or mobile homes being swept away.
+      5. "CATASTROPHIC": if there is mention of buildings, or large infrastructures submerged; or if there is mention of permanent homes (as opposed to mobile homes) being swept away.
+
+Assign impact class probabilities (in percents) to the following text, make sure the sum of all probabilities add up to 100%. Only return the probability values, and DO NOT EXPLAIN YOUR REASONING.
+
+Your answer should be expressed following this JSON format:
+
+{
+    "MINOR": <PROBABILITY PERCENT>,
+    "MODERATE": <PROBABILITY PERCENT>,
+    "SERIOUS": <PROBABILITY PERCENT>,
+    "SEVERE": <PROBABILITY PERCENT>,
+    "CATASTROPHIC": <PROBABILITY PERCENT>
+}
